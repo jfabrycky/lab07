@@ -1,15 +1,15 @@
 function init(){
 //add your javascrip between these two lines of code
-  function clickToAlert(){
-    function greet(){
-      alert('Hello');
-    }
-  }
+
 }
 
 
 
-
+function clickToAlert(){
+  var input = document.getElementById('entryinput').value;
+  alert("John Fabrycky: "+input);
+  textoutput.innerHTML = input;
+}
 
 
 
